@@ -1,0 +1,63 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    margin-bottom: 20px;
+}
+.header_container{
+    background-color: black;
+    height: 4rem;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+.list a{
+    text-decoration: none;
+}
+.Adleno_admin_header{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.Adleno_admin_header a{
+    text-decoration: none;
+}
+.Adleno_admin_header h3{
+    color: white;
+    transition: .3s ease-in-out;
+}
+.Adleno_admin_header h3 span{
+    color: red;
+}
+.Adleno_admin_header h3:hover{
+    color: rgb(150, 144, 144);
+}
+@media(max-width : 420px){
+    .header_container{
+        max-width: 400px;
+        height: 2rem;
+    }
+    .list{
+        width: 60%;
+    }
+    .list a{
+        font-size: 8px;
+    }
+    .Adleno_admin_header{
+       
+        width: 40%;
+    }
+    .Adleno_admin_header h3{
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        font-size: 15px;
+    }
+}
