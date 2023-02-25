@@ -35,13 +35,13 @@ const Information = (props) => {
             </li>
             <li>
                 <input type="radio" name='accordion' id='third'/>
-                <label htmlFor="third" className='label'>Trace</label>
+                <label htmlFor="third" className='label'> Reali-time Tracking</label>
                 <div className="content">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos architecto illum,
                         deserunt voluptates aliquam necessitatibus laboriosam nemo odit.
                         Magni nulla corporis error fugiat blanditiis nihil 
-                        voluptatem impedit amet porro expedita!<Link to='/tracedetails' state={props.productid}>Trace</Link>
+                        voluptatem impedit amet porro expedita!<Link to='/tracedetails' state={props.productid}>Track</Link>
                     </p>
                 </div>
             </li>
