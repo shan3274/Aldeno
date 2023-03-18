@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.text-container{
+    position: relative;
+    left: 5%;
+    border-radius: 10px;
+    /* filter: drop-shadow(-2px -2px 10px); */
+    width: 90%;
+    align-items: center;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/bgcloth.jpg);
+    background-size: cover;
+    padding: 0 8%;
+}
+.text-container:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/bgcloths.png);
+    background-size: cover;
+}
+.text-nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.cart-icon{
+    width: 30px;
+    cursor: pointer;
+}
+.menu-bar{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+
+}
+.menu-bar li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+.menu-bar li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+}
+.menu-bar li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: width 0.5s;
+}
+.menu-bar li a:hover::after{
+    width: 80%;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding-top:10rem;
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
+    background: url(img/back1.png);
+    -webkit-background-clip: text;
+    background-position: 0 0 ;
+    animation: back 20s linear infinite;
+}
+.text-box p{
+    
+    font-size: 50px;
+    font-weight: 600;
+}
+.text-box h1{
+    font-family: 'Lobster', cursive;
+    font-size: 190px;
+    line-height: 160px;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    background: url(img/back1.png);
+    -webkit-background-clip: text;
+    background-position: 0 0 ;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.text-box h3 {
+    margin-top: 100px;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.text-box .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text-box a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    
+}
+.arrow-span{
+    font-size: 30px; 
+    line-height: 15px;
+    margin-left: 5px;
+}
+.social-icons{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icons img{
+     width: 25px;
+     display: block;
+     margin: 25px 5px;
+     background-color: black;
+     border-radius: 50%;
+     
+}
+@media(max-width:768px){
+    .text-box p{
+        font-size: 35px;
+    }
+    .text-box h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .text-box h1{
+        font-size: 140px;
+    }
+    .text-box a{
+        font-size: 12px;
+    }
+}
+@media(max-width:412px){
+    .text-box h1{
+        font-size: 80px;
+        line-height: 160px;
+        margin-top: -30px;
+        margin-left: -10px;
+        color: transparent;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background: url(img/back1.png);
+        -webkit-background-clip: text;
+        background-position: 0 0 ;
+        animation: back 20s linear infinite;
+    }
+    .text-box{
+        padding: 4rem;
+    }
+    .text-box h3 {
+        width: 300px;
+        margin-top: 10px;
+    }
+    .text-container{
+        
+        height: 350px;
+        margin-top: -150px;
+        background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/bgcloth.jpg);
+    }
+    .social-icons img{
+        position: absolute;
+        width: 25px;
+        display: block;
+        background-color: black;
+        border-radius: 50%;
+        bottom: 10px;
+        right: 200px;
+   }
+   .img1{
+    position: relative;
+    top: 0;
+    left: -140px;
+   }
+   .img2{
+    position: relative;
+    top: 0;
+    left: -170px;
+   }
+   .img3{
+    position: relative;
+    top: 0;
+    left: -200px;
+   }
+    
+}
