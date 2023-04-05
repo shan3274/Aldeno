@@ -1,0 +1,28 @@
+.heading h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.imgsectlogo .logo img{
+    width: 50px;
+}
+.mobhed{
+    position: absolute;
+    top: -20px;
+    left: 30%;
+    display: none;
+}
+.traci{
+    top: 20px;
+}
+.imglogo img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:600px){
+    .mobhed{
+        display: block;
+    }
+    .leftlogo{
+        margin-left: 15px;
+    }
+}
