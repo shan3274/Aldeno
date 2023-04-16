@@ -1,0 +1,40 @@
+.heading h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.imgsectlogo .logo img{
+    width: 50px;
+}
+.mobhed{
+    position: absolute;
+    top: -20px;
+    left: 30%;
+    display: none;
+}
+.traci{
+    top: 20px;
+}
+.imglogo img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+p .sust h4, .sublable{
+    font-size: 16px;
+}
+.sublable,.hding h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hding h5{
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    .mobhed{
+        display: block;
+    }
+    .leftlogo{
+        margin-left: 15px;
+    }
+    .slide{
+        width: 350px;
+    }
+}
