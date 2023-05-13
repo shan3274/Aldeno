@@ -1,0 +1,10 @@
+.logotrac{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details_con textarea{
+    width: 400px;
+}

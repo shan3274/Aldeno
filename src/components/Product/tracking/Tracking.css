@@ -1,0 +1,126 @@
+.sub-image-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.text-img-container{
+    position: absolute;
+    width: 250px;
+    right: 150px;
+    text-align: center;
+    padding: 1rem;
+    justify-content: left;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    border-radius: 10px;
+    transition: transform 0.5s, background 0.5s;
+    
+    z-index: 1;
+}
+.ts1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    padding-top: .5rem;
+}
+
+.text-img-container:hover{
+    transform: scale(1.05);
+}
+ .text-img-container:nth-child(2){
+    
+    box-shadow: -5px -5px 5px rgba(0,0,0,.3);
+    left: 780px;
+    top: 380px;
+
+    
+}
+.text-img-container:nth-child(1){
+    
+   
+    left: 280px;
+    top: 80px;
+   
+}
+.heading-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.img-img-container{
+    position: absolute;
+    width: 350px;
+    top: 20%;
+}
+.img-img-container img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+} 
+.heading-cont{
+    width: 100%;
+    border-bottom: .3px solid gray;
+}
+.text-img-container p{
+    font-size: 12px;
+}
+.details-track {
+    display: flex;
+    padding:2rem 0;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+
+}
+.t p{
+    font-size: 10px;
+}
+
+.detailssec{
+    padding-top: 1rem;
+}
+@media(max-width:600px){
+
+  
+    .text-img-container{
+        font-size: 10px;
+        width: 180px;
+       
+        box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+    }
+    .text-img-container:nth-child(1){
+        width: 250px;
+        left: 55px;
+        top: 350px;
+        
+    }
+    .text-img-container:nth-child(2){
+        box-shadow: -2px -2px 2px rgba(0,0,0,.3);
+        width: 250px;
+        left: 55px;
+        top: 700px;
+        height: 150px;
+        margin-bottom: 1rem;
+    }
+    .Main-img-container{
+        margin-bottom: 1rem;
+    }
+    .img-img-container{
+        position: absolute;
+        width: 250px;
+        top: 10%;
+    }
+    .heading-cont{
+        border-bottom: 1px solid gray;
+    }
+    .heading-cont h6{
+        font-size: 12px;
+    }
+}
