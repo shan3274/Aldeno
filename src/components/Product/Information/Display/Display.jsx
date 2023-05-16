@@ -360,9 +360,6 @@ const Display = (props) => {
                 <div className="imgsectlogo">
                   <img src={logos} alt="" />
                 </div>
-                <div className="datalogo">
-                  <p>hello</p>
-                </div>
                 <Link to="/trackingmain" state={props.productid}>
                   Event History
                 </Link>
