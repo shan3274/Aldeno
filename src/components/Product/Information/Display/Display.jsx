@@ -384,7 +384,7 @@ const Display = (props) => {
           <div className="up"></div>
           <div className="down"></div>
           <div className="details infods">
-            <p className="text-12px">{props.footprint}</p>
+            <p className="text-[12px]">{props.footprint}</p>
           </div>
           <div className="carbon_foot">
             <p>
