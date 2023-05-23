@@ -60,7 +60,7 @@ const ProductMainPage = (props) => {
             <div className="detailsection">
               <div className="sectone">
                 <div className="titlepro">
-                  <h3>Product Details</h3>
+                  <h3 className="text-[28px] mb-3">Product Details</h3>
                 </div>
                 <div className="dete">
                   <p>{props.Basicdetails}</p>
@@ -128,7 +128,7 @@ const ProductMainPage = (props) => {
             <div className="detailsection">
               <div className="sectone">
                 <div className="titlepro">
-                  <h3>Product Details</h3>
+                  <h3 className="text-[28px] mb-3">Product Details</h3>
                 </div>
                 <div className="dete">
                   <p>{props.Basicdetails}</p>
