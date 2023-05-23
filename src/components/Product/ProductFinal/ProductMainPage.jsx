@@ -60,16 +60,16 @@ const ProductMainPage = (props) => {
             <div className="detailsection">
               <div className="sectone">
                 <div className="titlepro">
-                  <h3 className="text-[28px] mb-3">Product Details</h3>
+                  <h3 className="text-[28px] mb-3 mt-10">Product Detailts</h3>
                 </div>
-                <div className="dete">
+                <div className="dete ">
                   <p>{props.Basicdetails}</p>
                 </div>
               </div>
               <div className="btns">
-                <div className="btnopt">
+                <div className="btnopt ">
                   <Link>
-                    <button>Product Background +</button>
+                    <button className="">Product Background +</button>
                   </Link>
                 </div>
               </div>
@@ -128,20 +128,20 @@ const ProductMainPage = (props) => {
             <div className="detailsection">
               <div className="sectone">
                 <div className="titlepro">
-                  <h3 className="text-[28px] mb-3">Product Details</h3>
+                  <h3 className="text-[28px] mb-3 mt-10">Product Details</h3>
                 </div>
-                <div className="dete">
-                  <p>{props.Basicdetails}</p>
+                <div className="dete text-[12px]">
+                  <p className="text-[10px]">{props.Basicdetails}</p>
                 </div>
               </div>
-              <div className="btns">
-                <div className="btnopt">
+              <div className="btns ">
+                <div className="btnopt ">
                   <Link>
                     <button>Product Background +</button>
                   </Link>
                 </div>
               </div>
-              <div className="btns">
+              <div className="btns ">
                 <div className="btnopt">
                   <Link
                     to="/displaydata"
