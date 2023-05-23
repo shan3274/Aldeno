@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--text-color);
+
+}
+body{
+    background-color: var(--body-color);
+}
+.resell_body{
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    
+    
+}
+.input-text-resell{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.input_file_container input[type='file']{
+    display: none;
+}
+.input_file_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    margin-top: 0;
+    margin-left: 40%;
+    
+}
+.resell-details-input{
+    height: 40px;
+    border: 0;
+    border-bottom: .5px solid var(--border-color);
+    margin-bottom: 20px;
+    margin-top: 0;
+    outline: none;
+}
+.input_file_container p{
+    margin-bottom: 0;
+}
+.input_file_container label{
+    color: var(--text-color);
+    height: 50px;
+    width: 300px;
+    background-color: #f5af09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+}
+.input_file_container label:hover ,.btn-resell:hover{
+    background-color: #fac13c;
+}
+.icon{
+   width: 50px;
+    height: 22px;
+}
+.btn-resell{
+    padding: 1rem;
+    background-color: #f5af09;
+    transition: .3s ease-in-out;
+}
+.image_area{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img-label-resell{
+    margin-top: -10%;
+    margin-left: 10%;
+}
+.image{
+    max-width: 200px;
+    margin-left: 10%;
+}
+.dlt-btn{
+    width: 300px;
+    margin: 5px auto;
+}
+.img{
+    width: 0;
+}
+
+@media(max-width:400px){
+    .resell_body{
+        max-width: 400px;
+    }
+    .image_area{
+        top: 60%;
+    }
+    
+    .input_file_container {
+        margin-left: 0;
+    }
+    .input_file_container {
+        top: 10%;
+    }
+} */
