@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+pxh1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif Georgian", serif;
+}
+.main_popsup {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  position: absolute;
+}
+.popups {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.leftview {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rightview {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details_popsup,
+.discription_product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 1rem;
+  margin-left: 5rem;
+}
+.details_popsup p {
+  padding: 0.5rem;
+}
+.discription_product {
+  border-bottom: 0.5px solid gray;
+}
+.discription_product h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.sect_pops {
+  width: 80%;
+  display: flex;
+  box-shadow: 1px 1px 5px gray;
+  margin-top: 1rem;
+  align-items: center;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+.imgsect img {
+  width: 100px;
+  height: 100px;
+}
+.datasect {
+  padding: 0 2rem;
+}
+.re {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  width: 100px;
+  padding: 5px 10px;
+  color: rgb(248, 248, 248);
+  border-radius: 2px;
+  background-color: rgb(53, 0, 128);
+}
+.datasect p {
+  color: gray;
+}
+.cr {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.iconsset {
+  width: 40%;
+  position: relative;
+  left: -120px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.qes {
+  color: gray;
+  font-size: 12px;
+}
+.iconli {
+  font-size: 20px;
+}
+.sect_pops h5 {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.sect_pops h2 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.headingfinalprodyct {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.basicdetails {
+  width: 100%;
+  height: 100vh;
+}
+.Traceability h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.headingfinalprodyct h2 {
+  font-size: 35px;
+  font-family: "Libre Caslon Display", serif;
+}
+.headingfinalprodyct p {
+  position: relative;
+  top: -15px;
+}
+.sectone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -250px;
+}
+.phf {
+  z-index: 100;
+}
+.sectone p {
+  font-family: "Poppins";
+  text-align: justify;
+  font-size: 12px;
+  padding: 0 0.5rem;
+}
+.btnopt button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  border: 0.5px solid black;
+  background: #ffffff;
+}
+.btns {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headingfinalprodyct img {
+  margin-top: 10px;
+  width: 100px;
+}
+.hding {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.hding h5 {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.hding img {
+  width: 50px;
+  margin-right: 0.5rem;
+}
+
+.fotprint {
+  display: flex;
+}
+.dete {
+  padding: 0 1rem;
+}
+.dete p {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.titlepro h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blue;
+}
+.det p .corbonfootprint h4 {
+  font-size: 15px;
+}
+.hd h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.aldeno_logo {
+  position: absolute;
+  bottom: 100px;
+  left: 48%;
+}
+.aldeno_logobtn {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border-radius: 5px;
+  left: 47%;
+  cursor: pointer;
+}
+.aldeno_logobtn a {
+  color: white;
+  text-decoration: none;
+}
+.ref {
+  font-size: 12px;
+  cursor: pointer;
+  bottom: 70px;
+  left: 49%;
+}
+.trsn {
+  padding: 1rem;
+}
+
+.containmainnavi {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.containavi {
+  width: 70%;
+  height: 70%;
+  box-shadow: 1px 1px 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: white;
+}
+.txtdata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.txtdata p {
+  text-align: center;
+}
+.hed {
+  display: flex;
+  gap: 1rem;
+}
+.txtdata button {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+.hed h3,
+.h4o {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.txtdata .svg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 16%;
+  top: 17%;
+  cursor: pointer;
+}
+.crd {
+  padding: 1rem;
+}
+.closewin {
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+  .basicdetails {
+    width: 100%;
+    height: 100vh;
+  }
+  .headingfinalprodyct {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+  }
+  .mheadingfinalprodyct {
+    left: 25%;
+  }
+  .aldeno_logo {
+    position: absolute;
+    bottom: 100px;
+    left: 40%;
+  }
+  .aldeno_logobtn {
+    left: 35%;
+  }
+  .cr {
+    width: 200px;
+  }
+  .ref {
+    cursor: pointer;
+    bottom: 70px;
+    left: 43%;
+  }
+  .headingfinalprodyct p {
+    top: 0;
+  }
+  .headingfinalprodyct h2 {
+    font-size: 40px;
+    font-family: "Libre Caslon Display", serif;
+  }
+  .sectone {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+  }
+  .dete {
+    width: 350px;
+    position: relative;
+    top: -230px;
+  }
+  .sectone p {
+    font-family: "Poppins";
+    text-align: justify;
+    font-size: 12px;
+    padding: 0 0.5rem;
+  }
+  .titlepro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -270px;
+    font-family: "Poppins";
+    border-bottom: 0.5px solid gray;
+  }
+  .btns {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .detailsection {
+    margin-top: 3rem;
+  }
+
+  .btnopt button {
+    padding: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    border: 0.5px solid black;
+    background: #ffffff;
+  }
+  .popups {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    flex-direction: column;
+    height: 150%;
+    margin-bottom: 10%;
+  }
+  .leftview {
+    position: absolute;
+    top: -25rem;
+    width: 80%;
+  }
+  .rightview {
+    position: absolute;
+
+    width: 100%;
+
+    padding-bottom: 10%;
+  }
+  .discription_product h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .iconsset {
+    width: 100%;
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+  }
+
+  .datasect {
+    position: relative;
+    right: 10%;
+    width: 70%;
+    margin-left: 0;
+    padding: 20px 20px;
+  }
+  .imgsect {
+    width: 100px;
+  }
+  .imgsect img {
+    width: 70px;
+    height: 70px;
+  }
+  .containavi {
+    width: 90%;
+  }
+  .hed h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .txtdata h4 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .hed svg {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 10rem;
+    left: 9rem;
+  }
+  .txtdata .svg {
+    right: 10%;
+    top: 18%;
+  }
+  .closewin {
+    position: absolute;
+    top: -38rem;
+    right: -3rem;
+    cursor: pointer;
+  }
+  .cbr{
+    padding: 0 10px;
+  }
+  .cr h5{
+    font-size: 12px;
+  }
+}
